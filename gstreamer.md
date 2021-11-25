@@ -35,7 +35,14 @@ make -j$(nproc)
 sudo make install
 sudo ldconfig
 ```
-接著我們執行以下命令確定編譯完成的openvs有支援GStreamer
+接著我們執行以下命令確定編譯完成的opencv有支援GStreamer
 ```
 python3 -c "import cv2; print(cv2.getBuildInformation())"
 ```
+
+## Reference
+https://www.twblogs.net/a/5c7b865ebd9eee3399189fc6
+https://github.com/jetsonhacks/buildOpenCVTX2
+https://github.com/opencv/opencv/issues/14205
+https://stackoverflow.com/questions/54095699/install-gstreamer-support-for-opencv-python-package/54108247#54108247
+https://galaktyk.medium.com/how-to-build-opencv-with-gstreamer-b11668fa09c
