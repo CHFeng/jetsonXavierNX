@@ -46,3 +46,4 @@ https://github.com/jetsonhacks/buildOpenCVTX2
 https://github.com/opencv/opencv/issues/14205
 https://stackoverflow.com/questions/54095699/install-gstreamer-support-for-opencv-python-package/54108247#54108247
 https://galaktyk.medium.com/how-to-build-opencv-with-gstreamer-b11668fa09c
+https://qengineering.eu/install-opencv-4.5-on-jetson-nano.html
